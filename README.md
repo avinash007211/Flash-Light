@@ -1,4 +1,5 @@
 # Flash-Light
+#This repo is written in JAVA for an Android mobile application 
 (A)	 FlashLight Lite
 
 Prepare at least the basis functionality and the layout at home. You can use a memory stick to transport your project from home
