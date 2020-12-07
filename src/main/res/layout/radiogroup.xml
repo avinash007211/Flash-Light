@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/R_color_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/Radio_white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="White"/>
+        <RadioButton
+            android:id="@+id/Radio_black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Black"/>
+        <RadioButton
+            android:id="@+id/Radio_red"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Red"/>
+        <RadioButton
+            android:id="@+id/Radio_yellow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Yellow"/>
+        <RadioButton
+            android:id="@+id/Radio_green"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Green"/>
+
+    </RadioGroup>
+
+</ScrollView>

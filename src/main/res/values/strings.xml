@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FlashingScreen</string>
+    <string name="button_visibility">Startup Button Visibility</string>
+    <string name="color_setting">Startup Color Setting</string>
+</resources>

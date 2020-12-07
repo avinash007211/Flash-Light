@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="1dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp"
+    tools:context="com.example.avinash.flashingscreen.MainActivity">
+    <LinearLayout
+        android:id="@+id/mMainLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/textbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Touch the screen to hide/ unhide the buttons"/>
+        <ProgressBar
+            android:id="@+id/the_progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/buttonArea"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="bottom|center_horizontal">
+
+        <Button
+            android:id="@+id/white_button"
+            android:layout_width="37dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="W"
+            android:padding="0dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset" />
+
+        <Button
+            android:id="@+id/black_button"
+            android:layout_width="37dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="B"
+            android:padding="0dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            style="@android:style/Widget.DeviceDefault.Button.Inset" />
+
+        <Button
+            android:id="@+id/red_button"
+            android:layout_width="37dp"
+            android:padding="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="R"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset" />
+
+        <Button
+            android:id="@+id/yellow_button"
+            android:layout_width="37dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Y"
+            android:padding="0dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            style="@android:style/Widget.DeviceDefault.Button.Inset" />
+        <Button
+            android:id="@+id/green_button"
+            android:layout_width="37dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="G"
+            android:padding="0dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            style="@android:style/Widget.DeviceDefault.Button.Inset" />
+        <Button
+            android:id="@+id/SOS_button"
+            android:layout_width="37dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="SOS"
+            android:padding="0dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            style="@android:style/Widget.DeviceDefault.Button.Inset" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
